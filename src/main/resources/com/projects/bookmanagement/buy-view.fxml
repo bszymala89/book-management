@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CardPane prefHeight="400.0" prefWidth="600.0">
+         <items>
+            <AnchorPane prefHeight="91.0" prefWidth="555.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="83.0" text="Name of book:" />
+                  <Label layoutX="14.0" layoutY="60.0" prefHeight="17.0" prefWidth="51.0" text="price:" />
+                  <Label layoutX="14.0" layoutY="37.0" prefHeight="17.0" prefWidth="39.0" text="Author" />
+                  <Label layoutX="78.0" layoutY="60.0" prefHeight="17.0" prefWidth="60.0" text="year:" />
+                  <Label layoutX="151.0" layoutY="60.0" prefHeight="17.0" prefWidth="32.0" text="stock:" />
+                  <Label layoutX="227.0" layoutY="60.0" prefHeight="17.0" prefWidth="39.0" text="pages:" />
+                  <Label id="name" layoutX="97.0" layoutY="14.0" prefHeight="17.0" prefWidth="83.0" />
+                  <Label id="author" layoutX="58.0" layoutY="37.0" prefHeight="17.0" prefWidth="39.0" />
+                  <Label id="price" layoutX="44.0" layoutY="60.0" />
+                  <Label id="year" layoutX="108.0" layoutY="60.0" />
+                  <Label id="stock" layoutX="188.0" layoutY="60.0" />
+                  <Label id="pages" layoutX="264.0" layoutY="60.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </CardPane>
+   </children>
+</AnchorPane>
