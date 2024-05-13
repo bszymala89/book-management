@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "price": 15,
+    "stock": 50,
+    "numberOfPages": 281
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "price": 12,
+    "stock": 30,
+    "numberOfPages": 328
+  },
+  {
+    "id": 3,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "price": 10,
+    "stock": 25,
+    "numberOfPages": 224
+  },
+  {
+    "id": 4,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "price": 15,
+    "stock": 50,
+    "numberOfPages": 281
+  },
+  {
+    "id": 5,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "price": 11,
+    "stock": 20,
+    "numberOfPages": 180
+  },
+  {
+    "id": 6,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "price": 14,
+    "stock": 40,
+    "numberOfPages": 635
+  },
+  {
+    "id": 7,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "price": 9,
+    "stock": 60,
+    "numberOfPages": 279
+  },
+  {
+    "id": 8,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "price": 13,
+    "stock": 35,
+    "numberOfPages": 310
+  },
+  {
+    "id": 9,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": 1954,
+    "price": 20,
+    "stock": 15,
+    "numberOfPages": 1178
+  },
+  {
+    "id": 10,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "price": 18,
+    "stock": 100,
+    "numberOfPages": 223
+  }
+]
