@@ -90,17 +90,17 @@ public class MainController {
 
     @FXML
     public void showAddBookWindow() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("addBook-view.fxml"));
-        Parent root = fxmlLoader.load();
-        Stage newWindow = new Stage();
-        Scene scene = new Scene(root);
-        newWindow.setScene(scene);
-        newWindow.setTitle("Add Book");
-        newWindow.show();
+
     }
 
     @FXML
     public void showUpdateBookWindow() throws IOException {
-
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("UpdateBook-view.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage newWindow = new Stage();
+        Scene scene = new Scene(root);
+        newWindow.setScene(scene);
+        newWindow.setTitle("Update Book");
+        newWindow.show();
     }
 }
