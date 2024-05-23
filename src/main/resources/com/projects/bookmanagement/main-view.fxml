@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.projects.bookmanagement.MainController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projects.bookmanagement.MainController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <TableView fx:id="tableView" prefHeight="200.0" prefWidth="518.0" >
+   <TableView fx:id="tableView" prefHeight="200.0" prefWidth="518.0">
      <columns>
          <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
        <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
@@ -27,9 +27,9 @@
      <items>
        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="22.0" prefWidth="388.0">
             <children>
-                <Button layoutX="231.0" layoutY="-1.0" text="Update" />
-               <Button layoutX="315.0" layoutY="-1.0" text="Delete" />
-               <Button layoutX="158.0" layoutY="-1.0" text="Add" />
+                <Button fx:id="updateButton" layoutX="231.0" layoutY="-1.0" onAction="#updateButtonClicked" text="Update" />
+               <Button fx:id="deleteButton" layoutX="315.0" layoutY="-1.0" onAction="#deleteButtonClicked" text="Delete" />
+               <Button fx:id="addButton" layoutX="158.0" layoutY="-1.0" onAction="#addButtonClicked" text="Add" />
             </children>
          </AnchorPane>
      </items>
