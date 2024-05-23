@@ -14,13 +14,13 @@
     </padding>
    <TableView fx:id="tableView" prefHeight="200.0" prefWidth="518.0">
      <columns>
-         <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
-       <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
-       <TableColumn fx:id="authorColumn" prefWidth="75.0" text="Author" />
-         <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price" />
-         <TableColumn fx:id="yearColumn" prefWidth="75.0" text="Year" />
-         <TableColumn fx:id="pagesColumn" prefWidth="75.0" text="Pages" />
-         <TableColumn fx:id="stockColumn" prefWidth="75.0" text="Stock" />
+         <TableColumn fx:id="idColumn" prefWidth="25.0" text="ID" />
+       <TableColumn fx:id="nameColumn" prefWidth="160.0" text="Name" />
+       <TableColumn fx:id="authorColumn" prefWidth="160.0" text="Author" />
+         <TableColumn fx:id="priceColumn" prefWidth="35.0" text="Price" />
+         <TableColumn fx:id="yearColumn" prefWidth="40.0" text="Year" />
+         <TableColumn fx:id="pagesColumn" prefWidth="40.0" text="Pages" />
+         <TableColumn fx:id="stockColumn" prefWidth="40.0" text="Stock" />
      </columns>
    </TableView>
    <SplitPane prefHeight="24.0" prefWidth="518.0">
