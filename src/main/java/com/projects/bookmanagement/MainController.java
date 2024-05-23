@@ -6,10 +6,14 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
@@ -61,13 +65,13 @@ public class MainController {
     }
 
     @FXML
-    public void addButtonClicked() {
-        System.out.println("add");
+    public void addButtonClicked() throws IOException {
+        showAddBookWindow();
     }
 
     @FXML
-    public void updateButtonClicked() {
-        System.out.println("update");
+    public void updateButtonClicked() throws IOException {
+        showUpdateBookWindow();
     }
 
     @FXML
@@ -82,5 +86,21 @@ public class MainController {
             }
         }
         initialize();
+    }
+
+    @FXML
+    public void showAddBookWindow() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("addBook-view.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage newWindow = new Stage();
+        Scene scene = new Scene(root);
+        newWindow.setScene(scene);
+        newWindow.setTitle("Add Book");
+        newWindow.show();
+    }
+
+    @FXML
+    public void showUpdateBookWindow() throws IOException {
+
     }
 }
